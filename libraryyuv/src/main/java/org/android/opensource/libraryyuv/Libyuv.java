@@ -19,5 +19,10 @@ public class Libyuv {
                                          byte[] dstBuffer, int dst_stride_argb,
                                          int width, int height);
 
-
+    public native static void ABGRToI420(byte[] src_frame, int src_stride_frame,
+               byte[] dst_y, int dst_stride_y,
+               byte[] dst_u, int dst_stride_u,
+               byte[] dst_v, int dst_stride_v,
+               int width, int height);
+     
 }
