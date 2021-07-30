@@ -19,7 +19,7 @@ Step 2. Add the dependency
 -------------
 
 	dependencies {
-	        compile 'com.github.xiaoxiaoqingyi:libyuv-android:v1.0'
+	        compile 'com.github.garsonlab:libyuv-android:v1.1'
 	}
 API:
 <ul>
